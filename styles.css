@@ -17,10 +17,25 @@
   font-style: normal;
 
 }
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  word-spacing: 20px;
+  background-color: #ADBCD9;
+  width: auto;
+}
+
 ul {
     list-style: none;
     justify-content: center;
-    text-align: right;
+    text-align: center;
+    margin: 0;
+    padding: .90%;
   }
   
   nav ul li {
@@ -31,12 +46,11 @@ ul {
     text-decoration: none;
     color: #000000;
     font-family: 'Coda', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
   }
   
   li a:hover {
     color: #555448;
-    border-radius: 6px;
   }
 
   h1 {
