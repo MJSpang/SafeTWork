@@ -1,1 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Merriweather&display=swap');
+
+ul {
+    list-style: none;
+    justify-content: center;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff1E5;
+    font-family: 'Inter', sans-serif;
+    font-size: 12pt;
+  }
+  
+  li a:hover {
+    color: #CBC3E3;
+    border-radius: 6px;
+  }
