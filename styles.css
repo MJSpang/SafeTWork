@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap');
 
+@font-face {
+  font-family: 'coconatbold_ext';
+  src: url('coconat-boldext-webfont.woff2') format('woff2'),
+       url('coconat-boldext-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'coconatregular';
+  src: url('coconat-regular-webfont.woff2') format('woff2'),
+       url('coconat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 ul {
     list-style: none;
     justify-content: center;
@@ -20,4 +37,9 @@ ul {
   li a:hover {
     color: #555448;
     border-radius: 6px;
+  }
+
+  h1 {
+    font-family: 'coconatregular';
+
   }
