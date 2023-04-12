@@ -53,6 +53,21 @@ ul {
     color: #555448;
   }
 
+  button[type="submit"] {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  button[type="submit"]:hover {
+    color: #555;
+  }
+  
+  button[type="submit"] i {
+    font-size: 20px;
+  }
+
   h1 {
     font-family: 'coconatregular';
 
