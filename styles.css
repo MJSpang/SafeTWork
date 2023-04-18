@@ -85,12 +85,12 @@ ul {
 
       /* search */
 
-      #search {
+      #search{
         float: right;
         position: relative;
       }
 
- /* button[type="submit"] {
+  button[type="submit"] {
     border: none;
     background: transparent;
     cursor: pointer;
@@ -103,7 +103,7 @@ ul {
   
   button[type="submit"] i {
     font-size: 20px;
-  } */
+  } 
 
   h1 {
     font-family: 'coconatregular';
