@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap');
 
+
 @font-face {
   font-family: 'coconatbold_ext';
   src: url('coconat-boldext-webfont.woff2') format('woff2'),
@@ -31,7 +32,9 @@ nav {
   background-color: #ADBCD9;
   width: auto;
   position: relative;
+  display: flex; 
   justify-content: space-between;
+  align-items: center; 
 }
 
 ul {
@@ -85,27 +88,69 @@ ul {
 
       /* search */
 
-      #search{
-        float: right;
+      .search-container {
         position: relative;
+        display: inline-block;
       }
+      
+      #search-toggle {
+        border: none;
+        background-color: transparent;
+        color: #000;
+        cursor: pointer;
+      }
+      
+      #search-form {
+        position: absolute;
+        top: 100%;
+        right: 100%;
+        display: none;
+      }
+      
+      #search-form.show {
+        display: block;
+      }
+      
+      #search-form input[type="text"] {
+        width: 150px;
+      }
+      
+      #search-form button[type="submit"] {
+        border: none;
+        background-color: #ADBCD9;
+        color: #fff;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      
+      #search-toggle:focus + #search-form,
+      #search-form:focus-within {
+        display: block;
+      }
+      
+      #search-form.show {
+        left: -200px;
+      }
+      
+   /* header */
 
-  button[type="submit"] {
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    outline: none;
+  header {
+    background-image: url("images/hero.png");
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: cover;
+    text-align: center;
   }
-  
-  button[type="submit"]:hover {
-    color: #555;
-  }
-  
-  button[type="submit"] i {
-    font-size: 20px;
-  } 
 
-  h1 {
-    font-family: 'coconatregular';
-
+  .header-place {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: cover;
   }
+
