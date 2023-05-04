@@ -81,7 +81,7 @@ ul {
     -ms-transition: .3s;
     transition: .3s;
     box-shadow: -1px 3px 13px #404040;
-    margin-left: 20px;
+    margin-right: 20px;
   }
   
   #twit:hover, #fb:hover, #in:hover, #yt:hover {
@@ -212,3 +212,15 @@ ul {
       z-index: 3;
       box-shadow: -1px 3px 13px #404040;
     }
+
+    
+  #user_, #wallet, #time {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 5%;
+  }
