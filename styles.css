@@ -325,8 +325,14 @@ ul {
   } 
 
   .color-block3 {
-    height: 100px;
+    height: 170px;
+    width: 150px;
     background-color: #FFFCD8;
+    float: left;
+    position: absolute;
+    top: 320%;
+    left: 33%;
+    z-index: 7;
   }
   
   
