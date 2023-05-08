@@ -145,7 +145,7 @@ ul {
     left: 50%;
     transform: translate(-50%, -80%);
     color: #000000;
-    font-size: 3em;
+    font-size: 40px;
     z-index: 1;
     text-align: center;
     font-family: 'Coconat';
@@ -432,7 +432,7 @@ ul {
   }
 
   footer {
-    background-color: #f2f2f2;
+    background-color: #ADBCD9;
     padding: 20px;
     text-align: center;
     margin-top: 20px;
@@ -443,13 +443,7 @@ ul {
     margin: 0 auto;
   }
   
-  ul {
-    list-style: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-  }
-  
+ 
   li {
     display: inline-block;
     margin-right: 10px;
